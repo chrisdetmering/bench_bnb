@@ -27,8 +27,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch"
-  },
+    },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/plugin-syntax-class-properties": "^7.10.4"
+  }
 }

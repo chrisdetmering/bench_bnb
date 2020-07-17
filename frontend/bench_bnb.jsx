@@ -2,10 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import configureStore from './Store/store';
 import Root from './Components/root';
-import { login, logout } from './Actions/session_actions';
-
-window.login = login; 
-window.logout = logout; 
 
 
 document.addEventListener('DOMContentLoaded', () => { 

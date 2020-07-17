@@ -19,7 +19,7 @@ export default class Greeting extends Component {
 
     return (
       <div>
-        <h1>Greeting Presentational Component</h1>
+        <h1></h1>
         {greeting}
       </div>
     )
